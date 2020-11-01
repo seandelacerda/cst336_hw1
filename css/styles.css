@@ -1,0 +1,32 @@
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.honorable-mentions {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+/* football */
+#football {
+    background-color: silver;
+}
+
+#carouselExampleCaptions {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+

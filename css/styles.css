@@ -11,11 +11,17 @@ a:hover {
 }
 
 .honorable-mentions {
+    display: flex;
+    justify-content: center;
+}
+
+main, footer {
     text-align: center;
 }
 
-footer {
-    text-align: center;
+/* home */
+.main-image {
+    margin: 5rem;
 }
 
 /* football */
@@ -27,6 +33,12 @@ footer {
     width: 400px;
     height: 400px;
     margin: auto;
+}
+
+/* baseball */
+#baseball {
+    background-color: #261d19;
+    color: #fbc721;
 }
 
 

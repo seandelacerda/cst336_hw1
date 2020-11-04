@@ -1,5 +1,6 @@
 h1, h2, h3, h4 {
     text-align: center;
+    font-family: "sans-serif";
 }
 
 a {
@@ -12,7 +13,8 @@ a:hover {
 
 .honorable-mentions {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 main, footer {
@@ -22,6 +24,7 @@ main, footer {
 /* home */
 .main-image {
     margin: 5rem;
+    border: 1px solid black;
 }
 
 /* football */
@@ -39,6 +42,28 @@ main, footer {
 #baseball {
     background-color: #261d19;
     color: #fbc721;
+}
+
+#baseball .navbar {
+    background-color: #fbc721;
+}
+
+#baseball nav a {
+    color: #261d19;
+}
+
+/* soccer */
+#soccer .navbar {
+    background-color: #019e91;
+}
+
+#soccer {
+    background-color: #d11f2a;
+    color: #fff;
+}
+
+#soccer nav a {
+    color: red;
 }
 
 
